@@ -6,6 +6,8 @@ from numpy import hstack
 from numpy import vstack
 from numpy import asarray
 from PIL import Image
+from lightgbm import LGBMClassifier
+
 
 st.title("Intrusion Detection App")
 
